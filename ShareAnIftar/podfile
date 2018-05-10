@@ -1,0 +1,12 @@
+use_frameworks!
+
+  def shared_pods
+      pod 'Alamofire', '~> 4.5'
+      pod 'SDWebImage', '~> 4.1'
+      pod 'SwiftLint'
+      pod 'Cosmos'
+  end
+
+target 'ShareAnIftar' do
+    shared_pods
+end
